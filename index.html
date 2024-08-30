@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script> <!-- Include the JavaScript file -->
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="image-container">
+            <img src="./src/payroll-system-header-image-us-en.avif" alt="payroll Image">
+        </div>
+        <div class="login-form-container">
+            <h2>Login</h2>
+            <div class="input-container">
+                <img src="./src/user.png" class="icon" alt="Username icon">
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div class="input-container password-container">
+                <img src="./src/padlock.png" class="icon" alt="Password icon">
+                <input type="text" id="password" placeholder="Password">
+                <button class="password-toggle" id="togglePassword">
+                    <img src="./src/eye.png" alt="Toggle Password">
+                </button>
+            </div>
+            <button type="submit" id="loginButton">Login</button>
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2011 Tsukiden Global Solutions Inc.
+    </footer>
+</body>
+
+</html>
